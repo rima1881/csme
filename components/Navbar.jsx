@@ -1,5 +1,5 @@
 import style from '../styles/navbar.module.css'
-import Image from 'next/image'
+import Search from './Search'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 

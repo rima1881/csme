@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/halfBlack.png');
+    background-repeat: no-repeat;
+    background-size: 12.5vw;
+    background-position-x: right;
+    background-position-y: center;
+    height: calc(100vh - 55px);
+}
+
+.header{
+    width: 100%;
+    height: auto;
+}
+.dim{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: #fb9865;
+    margin:0;
+}
+.subTitle{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+
+    font-size: 2em;
+}

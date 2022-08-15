@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 .search:hover{
-    color: #f4af37;
+    color: #fb9865;
 }
 .list > li {
     display: inline-block;
@@ -37,5 +37,5 @@
     color: #222;
 }
 .list > li:hover{
-    color: #f4af37;
+    color: #fb9865;
 }
