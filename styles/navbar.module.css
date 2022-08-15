@@ -1,0 +1,41 @@
+.navbar{
+    background-color: #f5f5f5;
+    width: 100%;
+    display: flex;
+    height: 55px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    align-items: center;
+}
+.logo{
+    width: 45px;
+    height: 35px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.list{
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: 0px;
+    padding: 0;
+}
+.search{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.search:hover{
+    color: #f4af37;
+}
+.list > li {
+    display: inline-block;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+.list > li:hover{
+    color: #f4af37;
+}
