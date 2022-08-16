@@ -1,5 +1,8 @@
 import styles from '../styles/projects.module.css'
 import { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faYoutube } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Projects(){
 
@@ -47,6 +50,9 @@ export default function Projects(){
                 <h1 className={styles.title}>{current.title}</h1>
                 { current.achievement && <h4 className={styles.achievement}>{current.achievement}</h4>}
                 <p className={styles.description}>{current.description}</p>
+            </div>
+            <div className={styles.footer}>
+                <FontAwesomeIcon icon={faYoutube} />
             </div>
         </div>
     )
