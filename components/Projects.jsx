@@ -45,7 +45,7 @@ export default function Projects(){
             </nav>
             <div className={styles.card}>
                 <h1 className={styles.title}>{current.title}</h1>
-                { current.achievement && <h4>{current.achievement}</h4>}
+                { current.achievement && <h4 className={styles.achievement}>{current.achievement}</h4>}
                 <p className={styles.description}>{current.description}</p>
             </div>
         </div>

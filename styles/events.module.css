@@ -32,6 +32,7 @@
     background: transparent;
     font-size: 1.5vh;
     cursor: pointer;
+    color: #222;
 }
 .dropDown:hover{
     color: #fb9865;

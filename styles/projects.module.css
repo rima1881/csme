@@ -57,15 +57,21 @@
 }
 .title{
     margin: 0;
-    padding: 10px;
+    padding-top: 20px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 4vh;
-    color: #222;
+    font-size: 3.5vh;
+    color: #fb9865;
 }
 .description{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5vh;
+    color: #222;
+    margin: 20px;
+}
+.achievement{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
     color: #222;
     margin: 20px;
 }

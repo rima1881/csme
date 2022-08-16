@@ -1,5 +1,6 @@
 .container{
-    width: 300px;
+    width: 17%;
+    min-width: 180px;
     margin: 50px 40px 50px 40px;
     display: flex;
     flex-direction: column;
@@ -56,6 +57,7 @@
     transition: 0.5s;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
 }
 .btn:hover{
     color: #f5f5f5;
